@@ -1,13 +1,36 @@
 body{
     margin: 0;
     padding: 0;
+    height: 1000px;
 }
 
-.logo{
+.topo{
     color:#f44336;
-    background-color: gray;
     display: flex;
+    justify-content: space-between;
+    height: 60px;
 }
-.logo h1{
-    margin: 15px 23px 20px 13px;
+.textoLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+}
+.textoLogo h1{
+    font-size: 15px;
+}
+.logocentro{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+
+.pesquisa{
+    margin-right: 21px;
+    color:#757575;
+}
+
+.imagem img{
+    height: 600px;
+    width: 100%;
 }
