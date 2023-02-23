@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color:#f44336;
+    background-color: gray;
+    display: flex;
+}
+.logo h1{
+    margin: 15px 23px 20px 13px;
+}
