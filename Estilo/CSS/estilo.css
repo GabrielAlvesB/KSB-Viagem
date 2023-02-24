@@ -30,6 +30,10 @@ body{
     color:#757575;
 }
 
+.pesquisa i:hover{
+    color: #f44336;
+}
+
 #banner{
     background-image: url('../imagens/london.jpg');
     height: 670px;
