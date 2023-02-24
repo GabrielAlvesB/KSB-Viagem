@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    height: 1000px;
+    height: 5000px;
 }
 
 .topo{
@@ -127,17 +127,19 @@ body{
     color: #f44336;
 }
 
+#corpo{
+    display: flex;
+    justify-content: center;
+}
+
 .centralizarasimagens{
     display: flex;
     flex-direction: column;
-    padding: 0; /*Arrumar isso em casa*/
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 1200px;
 }
 
 .campodeimagem{
     display: flex;
-    background-color: red;
 }
 
 .imagemprincipal{
@@ -146,19 +148,16 @@ body{
     height: 400px;
     width: 530px;
     min-width: 530px;
-    border: solid black 10px;
 }
 
 .imagemprincipal p{
     color: #ffffff;
     font-size: 15px;
-    margin-top: 60vh;
-    margin-right: 20px;
+    margin-top: 375px;
+    margin-left: 30px; 
 }
 
 .imagemsecundaria{
-    border: solid blue 10px;
-    background-color: green;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -168,22 +167,49 @@ body{
     background-image: url('../imagens/newyork.jpg');
     height: 190px;
     width: 300px;
-    margin-right: 20px;
 }
 .imagem2{
     background-image: url('../imagens/sanfran.jpg');
     height: 190px;
     width: 300px;
-    margin: 0;
 }
 .imagem3{
     background-image: url('../imagens/pisa.jpg');
     height: 190px;
     width: 300px;
-    margin-right: 20px;
+    margin-top: 20px;
 }
 .imagem4{
     background-image: url('../imagens/paris.jpg');
     height: 190px;
     width: 300px;
+    margin-top: 20px;
+}
+
+.imagem1 p{
+    color: #fff0c5;
+    font-size: 15px;
+    margin-top: 162px;
+    margin-left: 15px;
+}
+
+.imagem2 p{
+    color: #fff0c5;
+    font-size: 15px;
+    margin-top: 162px;
+    margin-left: 15px;
+}
+
+.imagem3 p{
+    color: #fff0c5;
+    font-size: 15px;
+    margin-top: 162px;
+    margin-left: 15px;
+}
+
+.imagem4 p{
+    color: #fff0c5;
+    font-size: 15px;
+    margin-top: 162px;
+    margin-left: 15px;
 }
