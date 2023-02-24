@@ -126,3 +126,64 @@ body{
 .botao button:hover{
     color: #f44336;
 }
+
+.centralizarasimagens{
+    display: flex;
+    flex-direction: column;
+    padding: 0; /*Arrumar isso em casa*/
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.campodeimagem{
+    display: flex;
+    background-color: red;
+}
+
+.imagemprincipal{
+    background-image: url('../imagens/cinqueterre.jpg');
+    background-position: cover;
+    height: 400px;
+    width: 530px;
+    min-width: 530px;
+    border: solid black 10px;
+}
+
+.imagemprincipal p{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 60vh;
+    margin-right: 20px;
+}
+
+.imagemsecundaria{
+    border: solid blue 10px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imagem1{
+    background-image: url('../imagens/newyork.jpg');
+    height: 190px;
+    width: 300px;
+    margin-right: 20px;
+}
+.imagem2{
+    background-image: url('../imagens/sanfran.jpg');
+    height: 190px;
+    width: 300px;
+    margin: 0;
+}
+.imagem3{
+    background-image: url('../imagens/pisa.jpg');
+    height: 190px;
+    width: 300px;
+    margin-right: 20px;
+}
+.imagem4{
+    background-image: url('../imagens/paris.jpg');
+    height: 190px;
+    width: 300px;
+}
