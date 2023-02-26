@@ -140,6 +140,8 @@ body{
 
 .campodeimagem{
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .imagemprincipal{
@@ -148,6 +150,7 @@ body{
     height: 400px;
     width: 530px;
     min-width: 530px;
+    flex: 1;
 }
 
 .imagemprincipal p{
@@ -159,73 +162,26 @@ body{
 
 .imagemsecundaria{
     display: flex;
+   /* width: 600px;*/
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    gap: 10px ;
+    flex: 1;
 }
 
 
-.imagem1{
+.imagem{
     display: inline-block;
     position: relative;
-    border: #000000 solid 1PX;
-}
-.imagem2{
-    display: inline-block;
-    position: relative;
-}
-.imagem3{
-    display: inline-block;
-    position: relative;
-}
-.imagem4{
-    display: inline-block;
-    position: relative;
-}
-
-.imagem1 img{
-    height: 190px;
-    width: auto;
-}
-.imagem2 img{
-    height: 190px;
-    width: 255px;
-}
-.imagem3 img{
-    height: 190px;
-    width: 255px;
-}
-.imagem4 img{
     height: 190px;
     width: 255px;
 }
 
-
-.imagem1 p{
-    color: #fff0c5;
-    font-size: 15px;
-    position: absolute;
-    top: 145px;
-    left: 15px;
-    border: red solid 1px;
+.imagem > img{
+    height: 100%;
+    width: 100%;
 }
 
-.imagem2 p{
-    color: #fff0c5;
-    font-size: 15px;
-    position: absolute;
-    top: 145px;
-    left: 15px;
-}
-
-.imagem3 p{
-    color: #fff0c5;
-    font-size: 15px;
-    position: absolute;
-    top: 145px;
-    left: 15px;
-}
-
-.imagem4 p{
+.imagem p{
     color: #fff0c5;
     font-size: 15px;
     position: absolute;
