@@ -5,35 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-    <link rel="stylesheet" href="Estilo/CSS/estilo.css">
+    <link href="Estilo/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Estilo/assets/estilo.css">
     <title>KSB Viagens</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="menu">
-            <div class="centralLogoTitulo">
-                <div class="Logo"><i class="fa-sharp fa-solid fa-location-dot fa-lg"></i></div>
-                <div class="texto-logo">KSB Viagens</div>
+    <div class="container-fluid custom-container">
+        <header>
+            <div class="">
+                <div class="menu">
+                    <div class="centralLogoTitulo">
+                        <div class="Logo"><i class="fa-sharp fa-solid fa-location-dot fa-lg"></i></div>
+                        <div class="texto-logo">KSB Viagens</div>
+                    </div>
+                    <div class="pesquisa"> <i class="fa-solid fa-magnifying-glass fa-lg"></i> </div>
+                </div>
             </div>
-            <div class="pesquisa"> <i class="fa-solid fa-magnifying-glass fa-lg"></i> </div>
-        </div>
-    </div>
-</header>
+        </header> 
 
-<section id="Menu-banner">
-    <div class="container">
-        <div class="img-principal">
-            <div class="menu-imagem">
-                <div class="op1">aaa</div>
-                <div class="op2">bbb</div>
-                <div class="op3">ccc</div>
+        
+        <section id="Menu-banner">
+            <img id="banner-principal" src="Estilo/imagens/london.jpg" class="img-fluid w-100 custom-banner" alt="imagem-fundo">
+            
+            <div class="form-pesquisa container container-md container-lg custom-container centralize-all">
+                
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item col text-bg-dark" role="presentation">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <button class="nav-link active custom-button" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-user"></i> Home</button>
+                        </div>
+                        </li>
+                    <li class="nav-item col text-bg-dark" role="presentation">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <button class="nav-link custom-button" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                        </div>
+                    </li>
+                    <li class="nav-item col text-bg-dark" role="presentation">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <button class="nav-link custom-button" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                        </div>
+                    </li>
+                </ul>
+
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">Teste 1</div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Teste 2</div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Teste 3</div>
+                  </div>
+
+            </div>         
             </div>
-            <div class="espaco-procura">
-                abuiscviuybvuybv
-            </div>
-        </div>
+        </section>
+
+        <section>
+            aaaaaaaa
+        </section>
     </div>
-</section>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
