@@ -53,7 +53,10 @@
   .navbar{
     background-color: white;
   }
-
+  .espaco{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
   /*Inicio das mudanças importantes no Bootstrap*/
 
   .navbar-toggler{
@@ -70,6 +73,9 @@
   }
   .nav-link{
     color: white !important;
+  }
+  #form-secundario{
+    padding: 10px;
   }
   /*Fim das mudanças importantes no Bootstrap*/
 
