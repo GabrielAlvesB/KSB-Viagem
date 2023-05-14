@@ -46,10 +46,16 @@
     color: red;
   }
 
+  .customNav{
+    height: 54px;
+  }
+
   .custom-banner {
     height: calc(100vh - 54px);
   }
   
+
+
 .form-pesquisa{
   max-width: 900px;
   height: 260px;
@@ -63,13 +69,29 @@
   transform: translate(-50%, -50%);
 }
 
+.rd-color{
+  color: red;
+}
 
   /*Inicio do CSS DO BootStrap*/
 .custom-button {
     width: 100%;
     height: 100%;
   }
+
+  .navbar{
+    background-color: white;
+  }
+
   /*Inicio das mudanças importantes no Bootstrap*/
+
+  .navbar-toggler{
+    background-color: black !important;
+  }
+  .navbar-brand{
+   font-size: 25px;
+    color: black !important;
+  }
 
   .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     background-color: red !important;
