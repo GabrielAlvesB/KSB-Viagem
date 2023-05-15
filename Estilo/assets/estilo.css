@@ -50,18 +50,8 @@
     height: calc(100vh - 54px);
   }
   
-  /* #Menu-banner{
-    background-image: url(../imagens/london.jpg);
-    width: 100%;
-    height: calc(100vh - 54px);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
 .form-pesquisa{
   max-width: 900px;
-  height: 260px;
   position: absolute;
   background-color: white;
 }
