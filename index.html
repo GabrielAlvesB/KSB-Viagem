@@ -83,9 +83,10 @@
                     </li>
                 </ul>
 
-                    <div class="tab-content" id="myTabContent"><!--Menu um-->
-                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                        <form class="row espaco">
+                <div class="tab-content" id="myTabContent">
+
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <form class="row espaco">
                             <div class="col-md-4 ">
                             <label for="inputAddress" class="form-label">Endereço</label>
                             <input type="text" class="form-control" id="inputAddress" placeholder="Rua exemplo, 123">
@@ -121,38 +122,52 @@
                             <button type="submit" class="btn btn-danger">Enviar</button>
                             </div>
                         </form>
-                        </div>
                     </div>
-                  
-                  
-                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><!--Menu dois-->
-                            <form id="form-secundario">
-                                <legend>Disabled fieldset example</legend>
-                                <div class="mb">
-                                    <label for="disabledSelect" class="form-label">Disabled select menu</label>
-                                    <select id="disabledSelect" class="form-select">
-                                    <option>Disabled select</option>
-                                    </select>
+    
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <form id="form-secundario">
+                            <legend>Disabled fieldset example</legend>
+                            <div class="mb">
+                                <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                                <select id="disabledSelect" class="form-select">
+                                <option>Disabled select</option>
+                                </select>
+                            </div>
+                            <div class="mb">
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                                <label class="form-check-label" for="disabledFieldsetCheck">
+                                    Can't check this
+                                </label>
                                 </div>
-                                <div class="mb">
-                                    <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-                                    <label class="form-check-label" for="disabledFieldsetCheck">
-                                        Can't check this
-                                    </label>
-                                    </div>
-                                </div>
-                                <br>
-                                <button type="submit" class="btn btn-danger">Submit</button>
-                            </form>
-                        </div>
-
-                    
-                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Teste 3
-                        <!--Ajustar depois-->
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                        </form>
                     </div>
-                  </div>
-
+    
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <form id="form-secundario">
+                            <legend>Disabled fieldset example 2</legend>
+                            <div class="mb">
+                                <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                                <select id="disabledSelect" class="form-select">
+                                <option>Disabled select</option>
+                                </select>
+                            </div>
+                            <div class="mb">
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                                <label class="form-check-label" for="disabledFieldsetCheck">
+                                    Can't check this
+                                </label>
+                                </div>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                        </form>
+                    </div>
+                  </div> 
             </div>         
             </div>
         </section>
