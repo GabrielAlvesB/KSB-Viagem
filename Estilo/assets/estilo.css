@@ -92,3 +92,13 @@
     transform: translate(0, 0);
   }
 }
+.juntar i{
+  color: var(--cor-primaria);
+}
+.juntar i:hover{
+  color: gray;
+}
+
+.juntar button{
+  margin-left: 30px;
+}
